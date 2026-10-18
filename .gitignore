@@ -1,6 +1,10 @@
 node_modules
 dist
 dist-server
-data/
 .DS_Store
 *.log
+
+# Local archive indexes (disk paths, folder trees, file fingerprints) — never commit
+data/
+data/catalog.json
+data/duplicates.json
